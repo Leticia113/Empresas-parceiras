@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Empresas Parceiras 🤝")
 
-col1, col2, col3 = st.columns([1, 2, 3])
+col1, col2, col3 = st.columns(3)
 
 with col1:
   st.image("spacex.jpg", width=300)
@@ -23,5 +23,3 @@ with col3:
   st.link_button("Acessar Site", "https://www.netflix.com/br/")
 
 st.write("")
-
-st.markdown("<br>", unsafe_allow_html=True)
